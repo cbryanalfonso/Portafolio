@@ -1,0 +1,27 @@
+body>
+
+    <div class="vh-page page-home" style="background-image: url(./assets/img/bg_image_1.jpg);">
+        <header>
+            <p class="logo">Bryan Alfonso</p>
+            <ul class="menu1">
+                <li><a href="#s1">INICIO</a></li>
+                <li><a href="#s2">HABILIDADES</a></li>
+                <li><a href="#s3">PROYECTOS</a></li>
+                <li><a href="#s4">CONTACTO</a></li>
+            </ul>
+            <!-- <ul class="menu2">
+            <li class="lista"><a class="link" href="#s1">INICIO</a></li>
+            <li class="lista"><a class="link" href="#s2">HABILIDADES</a></li>
+            <li class="lista"><a class="link" href="#s3">PROYECTOS</a></li>
+            <li class="lista"><a class="link" href="#s4">CONTACTO</a></li>
+        </ul> -->
+
+        </header>
+        <div id="info">
+            <h5 class="fw-normal">Bienvenido</h5>
+            <h1 class="fw-light mb-4">Soy <b class="nombre">Bryan Alfonso</b> Cruz Juan</h1>
+            <div>Desarrollador</div>
+        </div>
+    </div>
+
+</body>

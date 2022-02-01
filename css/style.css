@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background: #f8f8f8;
+    /* top: 0;
+    background-color: #343a40; */
+    z-index: 50;
+}
+.logo{
+   color: white;
+    font-size: 18px;
+}
+header .menu1{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+header .menu1 li {
+    float: left;
+}
+header .menu1 li a{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.vh-page{
+  position: relative;
+  display: block;
+  padding: 80px 0;
+  width: 100%;
+  overflow: hidden;
+  opacity: 1;
+}
+.page-home {
+    padding: 25px 0;
+  width: 100%;
+  height: 700px;
+  z-index: 99;
+}
+.page-home::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(62, 57, 57, 0.8);
+    z-index: -1;
+  }
+.page-home #info{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    z-index: 10;
+}
+.page-home .navbar {
+    position: absolute;
+    top: auto;
+    left: 0;
+    width: 100%;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: rgba(104, 102, 102, 0.8);
+    z-index: 99;
+  }
+  
+  .page-home .navbar.floating {
+    top: 0;
+    background-color: #343a40;
+  }
+  
+  .page-home .caption-header {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    z-index: 10;
+  }
+  
+  .page-home h1 {
+    font-size: 50px;
+  }
+  
+  .page-home .badge {
+    padding: 16px 24px;
+    background-color: rgba(239, 56, 36, 0.15);
+    color: #EF3724;
+    text-shadow: 0 2px 4px rgba(23, 25, 37, 0.4);
+    font-size: 16px;
+    border-radius: 40px;
+  }
+  
+  .page-home .floating-button {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 21px;
+    cursor: pointer;
+    z-index: 10;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 16px;
+    padding-right: 16px;
+} 
+
+.nombre{
+    color: #EF3724;
+}
+
+.pagina-informacion{
+    background-color: #fff;
+}
+.fotografia {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 100%;height: 100%;
+    overflow: hidden;
+    z-index: 10; 
+}
+.imagen-medidas {
+    margin:10px auto;
+    border-radius:5px;
+    border: 1px solid #999;
+    padding:13px;
+    width:220px;
+    height:230px;
+     background-size: 100% 100%;
+    background-repeat:no-repeat;
+    background:url(../assets/img/bg_image_1.jpg);
+    background-size: cover; 
+    background-color: red;
+}
+.vg-page .btn{
+    border-radius: 20;
+    border-width: 0.9px;
+    border-color: red;
+    color: red;
+    font-size: 16px;
+    padding: 10px;
+}
+.vg-page .btn:hover{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+.lista-tema{
+    list-style: none;
+    padding: 0;
+    margin-left: 10px;
+}
+.lista-tema::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 9px;
+    margin: auto;
+    width: 1px;
+    height: 85%;
+    background-color: #cacdd6;
+    z-index: -1;
+}
+.lista-tema li{
+    display: block;
+    margin: 5px 0;
+}
+.lista-tema li::before{
+    content: "";
+    position: absolute;
+    left: 3px;
+    margin: 6px 0;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 2px solid ;
+    border-color: #EF3724;
+}
+div img{
+    width: 300px;
+    height: 200px;
+}
+
+/**
+position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  z-index: 10;
+*/
