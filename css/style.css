@@ -272,7 +272,7 @@ div .imagenLenguajes:hover{
 }
 
 .img-place > img {
-    width: 100%;height: auto;
+    width: 150px;height: 150px;
 }
 /** INFORMACIÓ PROYECTOS*/
 .gridder {
